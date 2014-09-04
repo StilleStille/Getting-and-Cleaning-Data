@@ -19,5 +19,7 @@ Download the data source and put into a folder on your local drive.
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 You'll have a UCI HAR Dataset folder.
-Put run_analysis.R in the parent folder of UCI HAR Dataset, then set it as your working directory using setwd() function in RStudio. # setwd ("~/UCI HAR Dataset")
+Put run_analysis.R in the parent folder of UCI HAR Dataset, then set it as your working directory using setwd() function in RStudio.
+# setwd ("~/UCI HAR Dataset")#
+
 Run source("run_analysis.R"), then it will generate a new file  data_set_with_the_averages.txt in your working directory.
